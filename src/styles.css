@@ -1,0 +1,81 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(239, 246, 249) 0%,
+    rgb(206, 239, 253) 90%
+  );
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0;
+}
+p {
+  color: rgb(116, 111, 111);
+  font-weight: 400;
+  line-height: 1.5;
+}
+p strong {
+  color: rgb(32, 83, 212);
+}
+a {
+  color: rgb(21, 32, 179);
+}
+main {
+  padding: 30px 0;
+}
+header {
+  border-bottom: 1px solid #d5eeff;
+  padding-top: 30px;
+}
+.wrapper {
+  background: rgb(234, 251, 251);
+  margin: 50px auto;
+  border-radius: 5px;
+  max-width: 700px;
+  padding: 30px;
+}
+
+footer {
+  border-top: 1px solid rgb(127, 182, 246);
+  text-align: center;
+  padding-top: 30px;
+}
+input {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  width: 75%;
+  margin: 3px;
+}
+.btn {
+  background: #7db9e0;
+  color: rgb(32, 28, 28);
+  width: 20%;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.degree {
+  font-size: 80px;
+  font-weight: bold;
+}
+.emoji {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
+.temp {
+  font-size: 48px;
+}
